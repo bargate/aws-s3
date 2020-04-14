@@ -5,7 +5,7 @@ import { throwError } from "./ErrorThrower";
 import GetUrl from "./Url";
 import Policy from "./Policy";
 import Signature from "./Signature";
-import {fetchWithProgress} from "./utils";
+import {fetchWithProgress} from "../utils";
 
 class S3Client {
     private config: IConfig;
